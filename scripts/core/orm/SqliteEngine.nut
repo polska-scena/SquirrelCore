@@ -103,20 +103,10 @@ class SqliteEngine{
 
 
     function save(){
-//        try {
             local query = this.qb.getQuery();
             ::QuerySQL(this.db, query);
             this.qb = null;
             print(query);
-//        }catch(e) response.log(" SQLite save method "+ e);
     }
 
 }
-//this.qb = QueryBuilder("select");
-//        if(typeof(column) == "array"){
-//            this.qb.columns = column;
-//        }
-//        else{
-//            this.addColumn(column);
-//        }
-//        return this.save();

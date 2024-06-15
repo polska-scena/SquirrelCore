@@ -88,11 +88,3 @@ class DatabaseEngineController {
         print(data);
     }
 }
-
-//DB <- {}
-//function DB::connect(name, address=" ", user=" ", password=" ") {
-//    return DatabaseEngineController.connect(name, address=" ", user=" ", password=" ");
-//}
-//function DB::driver(driver){
-//
-//}
